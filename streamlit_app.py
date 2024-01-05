@@ -4,13 +4,6 @@ import pandas as pd
 import re
 import itertools
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-!ls "/content/drive/My Drive/Dataset/hungarian.data"
-
-dir = '/content/drive/My Drive/Dataset/hungarian.data'
-
 with open(dir, encoding='Latin1') as file:
   lines =[line.strip() for line in file]
 
