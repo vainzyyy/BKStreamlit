@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title = "Estimasi CO2 Emissions",
+    page_title = "Estimasi CO2 Car",
     page_icon = ':car: | :red_car:' #nama emoji 
 )
 
