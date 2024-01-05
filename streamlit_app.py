@@ -1,5 +1,6 @@
 # streamlit umumnya diinisialisasi dengan 'st'
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(
     page_title = "Estimasi CO2 Car",
@@ -27,7 +28,7 @@ def user_input_features():
     features = pd.DataFrame(data,index=[0])
     return features
 
-df = user_input_features()
+features = pd.DataFrame(data, index=[0])
 st.header("User Input Features")
 st.write(df)
 
