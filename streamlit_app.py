@@ -15,7 +15,7 @@ st.write('information about Co2 Emission')
 # st.sidebar dapat digunakan untuk membuat sidebar
 st.sidebar.header("User Input Features")
 
-df user_input_features():
+def user_input_features():
     EngineSize = st.sidebar.number_input('Insert a Engine Size', 1.0 , 8.4) #(label,minvalues,maxvalues,initial values)
     Cylinders = st.sidebar.number_input('Insert a Cylinders', 3 , 16)
     FuelConsumptionTotal = st.sidebar.number_input('Insert a Total Fuel Comsumption (L/100 km)', 1.0 , 25.8)
