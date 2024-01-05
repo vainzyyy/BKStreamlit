@@ -28,7 +28,7 @@ def user_input_features():
     features = pd.DataFrame(data,index=[0])
     return features
 
-features = pd.DataFrame(data, index=[0])
+df = user_input_features()
 st.header("User Input Features")
 st.write(df)
 
